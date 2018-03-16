@@ -1,0 +1,40 @@
+/*
+Buttons
+*/
+.btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0px;
+    transition: all 0.6s linear;
+}
+
+.btn-default-border {
+    border: 1px solid #aeaeae;
+    color: #000;
+    background: transparent;
+    &:hover,&:focus{
+        background-color: #000;
+        color: #fff;
+        border-color: #000;
+        outline: none;
+    }
+}
+
+.contact-btn{
+    width: 100%;
+    font: 400 18px/35px $rob;
+    border-radius: 40px;
+    background: #ce3635;
+    color: #fff;
+    cursor: pointer;
+    &:hover,&:focus{
+        background: #f62019;
+        outline: none;
+    }
+}

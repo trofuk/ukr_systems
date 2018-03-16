@@ -1,0 +1,12 @@
+/*
+Footer
+*/
+.footer {
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding: 40px 0; }
+  .footer ul li a {
+    color: #aeaeae;
+    font-size: 20px; }
+  .footer span {
+    font-size: 12px; }

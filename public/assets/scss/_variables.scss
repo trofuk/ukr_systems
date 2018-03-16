@@ -1,0 +1,21 @@
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+.col-md-offset-right-1 {
+    margin-right: 8.33333333%;
+}
+$rob:  "Roboto", sans-serif;
+$ral:  'Raleway', sans-serif;
+/***** Google fonts import ************/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC:400,500,700|Open+Sans+Condensed:300,300i,700|Raleway:100,400,500,600,700|Roboto:100,300,300i,400,400i,500,700|Sacramento|Anton');

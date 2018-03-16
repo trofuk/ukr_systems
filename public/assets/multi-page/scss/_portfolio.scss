@@ -1,0 +1,125 @@
+/*portfolio css 
+==============================================================*/
+
+.cbp-l-filters-alignLeft {
+    margin-bottom: 20px;
+    .cbp-filter-item {
+        border: 0px;
+        padding: 0px 0px;
+        margin: 0 20px 10px 0;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+        &.cbp-filter-item-active,&:hover{
+            border: 0px;
+            border-bottom: 1px solid #000;
+            background: transparent;
+            color: #000;
+        }
+    }
+}
+.cbp-l-caption-desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.cbp-l-caption-title {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.cbp-popup-lightbox-title{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+.cbp-caption-overlayBottomAlong .cbp-caption-activeWrap{
+    height: 70px;
+}
+
+
+.bx-wrapper {
+    float: none;
+    margin: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+#bx-pager {
+    float: none;
+    width: auto;
+    a{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 29px;
+        margin-top: 30px;
+        width: calc(94% / 3);
+        img{
+            width: 100%;
+        }
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+}
+.bx-prev,.bx-next {
+    color: #000;
+    font-size: 40px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    &:hover,&:focus{
+        color: #ea4452;
+    }
+}
+.bx-prev{
+    margin-left: 25px;
+    left: 0;
+}
+.bx-next{
+    margin-right: 25px;
+    right: 0;
+}
+
+.portfolio_single_content{
+    padding: 40px 50px;
+    h5{
+        font-size: 20px;
+        font-family: $rob;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.30);
+    }
+    h2{
+        font-size: 20px;
+        font-family: "Playfair Display", serif;
+        text-transform: uppercase;
+        color: #111; 
+        text-transform: uppercase;
+        margin: 18px 0px;
+    }
+}
+
+.next_previous_btn{
+    h4{
+        display: inline-block;
+        a{
+            color: #7f7f7f;
+            font-size: 14px; 
+            font-family: "Playfair Display", serif;
+            font-weight: 400;
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+    .single_next{
+        float: right;
+    }
+}

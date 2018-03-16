@@ -1,0 +1,437 @@
+.pricing-wrapper{
+    .price-box{
+        text-align: center;
+        border: 1px solid #ededed;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 60px;
+        margin: 0px 0px 30px;
+        transition: all 0.4s linear !important;
+        cursor: pointer;
+        .best-label{
+            position: absolute;
+            font-size: 12px;
+            font-weight: 700;
+            font-family: "Roboto", sans-serif;
+            width: 200px;
+            background: #ea4452;
+            color: #fff;
+            line-height: 40px;
+            transform: rotate(45deg);
+            right: -62px;
+            top: 16px;
+        }
+        h3{
+            font-size: 2.3rem;
+            border-bottom: 1px solid #ededed;
+            padding: 50px 15px;
+        }
+        h1{
+            font-size: 3rem;
+            line-height: 3rem;
+            margin: 34px 0;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            sup{
+                font-size: 50%;
+            }
+        }
+        ul{
+            padding-bottom: 20px;
+            li{
+                border-bottom: 1px solid #eee;
+                padding: 7px 0;
+                transition: all 0.4s linear;
+                &:hover{
+                    color: #ea4452;
+                }
+                &:last-child{
+                    border: 0px;
+                }
+            }
+        }
+        &.active{
+            box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+        }
+        &:hover{
+            box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+        }
+    }
+    .subcribe_text{
+//        margin: 30px 0px 0px;
+        font-size: 16px;
+        a{
+            color: #000;
+            &:hover{
+                color: #ea4452;
+            }
+        }
+    }
+}
+
+/*newsletter*/
+
+.newsletter-form{
+    padding-top: 20px;
+    .input-group{
+        max-width: 570px;
+        margin: 0px auto;
+        .form-control{
+            padding: 0px 30px;
+            font: 400 16px/40px $rob;
+            box-shadow: none;
+            border: 1px solid #ededed;
+            color: #555555;
+            height: 60px;
+            @include placeholder{
+                color: #888;
+            }
+        }
+        .btn-skin-border{
+            background: #ea4452;
+            color: #fff;
+            &:hover{
+                background: #333;
+                border-color: #333;
+            }
+        }   
+    }
+}
+
+    
+
+
+
+/*============== section-promo css ===========*/
+.section-promo{
+    background: url("../images/yt-fallback.jpg") no-repeat scroll center 18%;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0px;
+    background-attachment: fixed;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background:#000;
+        opacity: 0.68;
+        position: absolute;
+    }
+    .section-promo-c{
+        justify-content: center;
+        align-self: center;
+        .sec-title-one{
+            padding-top: 30px;
+        }
+    }
+    .theme_slider{
+        padding-top: 35px;
+    }
+    .owl-dots{
+        position: absolute;
+        top: 0;
+        .owl-dot{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.60);
+            display: inline-block;
+            margin: 5px;
+            &.active{
+                background: #ce3635;
+                border-color: #ce3635;
+            }
+        }
+    }
+}
+
+
+.background-black{
+    background: #111;
+    .price-box{
+        background: rgba(65, 65, 65, 0.21);
+        border: 0px;
+        .best-label{
+            background: #ce3635;
+        }
+        h3{
+            border-color: rgba(237, 237, 237, 0.05);
+            color: #fff;
+            font-family: $rob;
+        }
+        h1{
+            color: #ce3635;
+        }
+        ul{
+            li{
+                border-color: rgba(237, 237, 237, 0.05);
+            }
+        }
+        .btn-dark-border{
+            color: #fff;
+            font-family: $rob;
+            font-weight: 400;
+            font-size: 14px;
+            &:hover{
+                border-color: #ce3635;
+                background: #ce3635;
+            }
+        }
+        &:hover{
+            box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.9);
+        }
+    }
+    .subcribe_text a{
+        color: rgba(255, 255, 255, 0.90);
+    }
+}
+
+
+/*============= section-app css ============*/
+.section-app{
+    position: relative;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #111;
+        position: absolute;
+        opacity: 0.75;
+    }
+    video{
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -5;
+        position: fixed;
+        pointer-events: none;
+        top: 0;
+    }
+}
+.section-app-c{
+    .app-img{
+        img{
+            max-width: 100%;
+        }
+    }
+    .medium-icon{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        font-size: 35px;
+        line-height: 100px;
+        color: #fff;
+        background: #ce3635;
+        display: inline-block;
+        text-align: center;
+        &.yellow-bg{
+            background: #f4bf00;
+        }
+    }
+    h4{
+        color: #fff;
+        font-family: $rob;
+        font-weight: 500;
+        padding: 30px 0px 20px;
+    }
+    ul{
+        li{
+            vertical-align: middle;
+            font-family: $rob;
+            font-size: 15px;
+            margin-bottom: 15px;
+            color: #888;
+            i{
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                background: #ce3635;
+                border-radius: 50%;
+                color: #fff;
+                text-align: center;
+                line-height: 30px;
+                font-size: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+/*=============== start pricing-area css ===================*/
+.pricing-area{
+    padding: 104px 0px 120px;
+}
+.price-tab{
+    max-width:570px;
+    margin: 0px auto;
+    border: 1px solid #e2e5e7;
+    li{
+        padding: 0px;
+        margin: 0px !important;
+        width: 50%;
+        .nav-link{
+            padding: 0px 50px;
+            font: 400 16px/60px  $rob;
+            color: #222;
+            text-transform: uppercase;
+            margin: 0px;
+            letter-spacing: 1.6px;
+            border: 0px !important;
+            border-radius: 0px !important;
+            text-align: center;
+            display:block;
+            &:hover,&:focus{
+                background: #333;
+                color:#fff;
+            }
+            &.active{
+                background: #333;
+                border-bottom-right-radius: 0px;
+                border-top-right-radius: 0px;
+                color:#fff;
+                &:hover,&:focus{
+                    background:#333;
+                    border-color:#333; 
+                }
+            }
+        }
+        
+        & + li{
+            .nav-link{
+                border-left:1px solid #e2e5e7 !important;
+            }
+        }
+    }
+}
+.priceing-tab{
+    padding: 80px 0px 0px;
+}
+
+.price{
+    .pricing-box{
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 17px 0px rgba(26, 38, 74, 0.09);
+        text-align: center;
+        padding: 18px 0px 60px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        .pricing-header{
+            position: relative;
+            .tag{
+                font: 600 12px/23px "Roboto", sans-serif;
+                color: #fff;
+                text-transform: uppercase;
+                background: #ea4452;
+                width: 75px;
+                transform: rotate(90deg);
+                position: absolute;
+                top: 4px;
+                right: 0;
+                padding: 4px 0px;
+                border: 0px;
+                &:before{
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-left: 0px solid transparent;
+                    border-right: 15px solid transparent;
+                    border-bottom: 13px solid #ea4452;
+                    position: absolute;
+                    top: 1px;
+                    transform: rotate(90deg);
+                    right: -14px;
+                }
+                &:after{
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-left: 15px solid transparent;
+                    border-right: 0px solid transparent;
+                    border-bottom: 13px solid #ea4452;
+                    position: absolute;
+                    transform: rotate(90deg);
+                    right: -14px;
+                    bottom: 1px;
+                }
+                
+            }
+            h2{
+                font: 700 18px/60px $ral;
+                color: #0081ff;
+                text-transform: uppercase;
+                padding-bottom: 15px;
+            }
+            .packeg_typ{
+                font: 400 72px/60px $ral;
+                color: #0081ff;
+                background: #f8fafc;
+                padding: 30px 0px;
+                span{
+                    font: 400 24px/35px $ral;
+                    letter-spacing: 1px;
+                    vertical-align: top;
+                }
+                small{
+                    font-family: $rob;
+                    font-size: 16px;
+                    line-height: 30px;
+                    vertical-align: bottom;
+                }
+            }
+        }
+        .plan-lists{
+            padding: 47px 20px 30px;
+            li{
+                font: 400 18px/40px $rob;
+                color: #999;
+                border-bottom: 1px solid #f8f1f7;
+            }
+        }
+        &:hover{
+            box-shadow: 0px 17px 37px 0px rgba(26, 38, 74, 0.25);
+            .purchase-btn{
+                background: #0081ff;
+                color: #fff;
+            }
+        }
+        &.active{
+            box-shadow: 0px 17px 37px 0px rgba(26, 38, 74, 0.25);
+            &:hover{
+                .purchase-btn{
+                    background: #0081ff;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.try{
+    display: block;
+    font: 400 12px/50px $rob;
+    color: #b8b8b8;
+    text-transform: uppercase;
+    @include transition;
+    &:hover{
+        color: #0081ff;
+    }
+}
+.purchase-btn{
+    font-size: 14px;
+    color: #0081ff;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border: 1px solid #0081ff;
+    display: inline-block;
+    padding: 4px 67px;
+    border-radius: 3px;
+    transition: all 0.4s linear;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+/*=============== End pricing-area css ===================*/

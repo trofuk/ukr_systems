@@ -1,0 +1,66 @@
+.page_header {
+    padding: 50px 0 90px;
+    h1{
+        font-size: 55px;
+        line-height: 70px;
+        color: #aeaeae;
+        margin-bottom: 30px;
+        font-weight: 700;
+        letter-spacing: -1px;
+        font-family: "Playfair Display", serif; 
+        span{
+            color: #000;
+            font-style: italic;
+        }
+    }
+    .lead {
+      margin: 0px;
+    }
+}
+
+/*=================banner_area css ==================*/
+.banner_area{
+    height: 600px;
+    display: table;
+    width: 100%;
+    padding: 0px 30px;
+    position: relative;
+    background: url(../assets/images/about_us_title_img.jpg) no-repeat scroll center center /cover;
+    .display_table{
+        display: table-cell;
+        height: 100%;
+        width: 100%;
+        vertical-align: middle;
+    }
+    .b_text{
+        background-color: #f7f7f7;
+        max-width: 530px;
+        margin: 0 auto;
+        padding: 55px 0px 37px;
+        box-shadow: 0 0 0 10px #fafafb;
+        border: 1px solid #acacac;
+        opacity: 0.9;
+        text-align: center;
+        h2{
+            font-family: "Playfair Display", serif; 
+            position: relative;
+            padding-bottom: 20px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            &:before{
+                content: "";
+                width: 50px;
+                height: 2px;
+                background: #000;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0;
+            }
+        }
+    }
+    &.banner2_img{
+        background: url("../assets/images/contact-banner.jpg") no-repeat scroll center center /cover;
+    }
+}
+

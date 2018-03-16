@@ -1,0 +1,357 @@
+/*features-one css
+=========================================================*/
+.features-one{
+    padding: 96px 0px 80px;
+}
+.sass-header{
+    text-align: center;
+    h6{
+        font:600 11px/22px $ral;
+        color: #cdd1d6;
+        text-transform: uppercase;
+    }
+    h2{
+        font: 700 35px/40px $ral;
+        color: #1a264a;
+        position: relative;
+        padding-bottom: 18px;
+        margin-bottom: 20px;
+        &:before{
+            content: "";
+            width: 30px;
+            height: 2px;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            background:#1a264a;
+            position: absolute;
+        }
+    }
+    p{
+        font: 400 14px/25px $ral;
+        color: #585e68;
+    }
+}
+.s-features-slider{
+    max-width: 730px;
+    margin: 20px auto 30px;
+    .item{
+        padding: 20px;
+        img{
+            box-shadow: 0 0 35px rgba(0,0,0,0.1);
+        }
+    }
+    .owl-dots{
+        text-align: center;
+        margin: 40px 0px 10px;
+        .owl-dot{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background: #e4e7ea;
+            display: inline-block;
+            margin: 0px 5px;
+            &.active{
+                background: #777;
+            }
+        }
+    }
+}
+
+.gap-items{
+    margin-top: 30px;
+    .media-left{
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.40);
+        padding-right: 30px;
+        text-align: center;
+        width: 60px;
+    }
+    .media-body{
+        h5{
+            font-size: 18px;
+            color: #1a264a;
+            font-weight: 600;
+            font-family: $ral;
+            padding-bottom: 10px;
+        }
+        p{
+            font-size: 15px;
+            font-family: $ral;
+            color: #585e68;
+        }
+    }
+}
+
+
+
+/*features_area_two css
+============================================================*/
+.features_area_two{
+    padding: 80px 0px; 
+    .features-content{
+        padding-right: 50px;
+        padding-left: 50px;
+        h2{
+            font: 700 35px/40px $ral;
+            color: #1a264a;
+            padding-bottom: 30px
+        }
+        p{
+            font-size: 15px;
+            font-family: $ral;
+            line-height: 28px;
+            color: #585e68;
+            padding-bottom: 40px;
+        }
+    }
+    .features-img{
+        padding: 20px 0px 20px 20px;
+        img{
+            max-width: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.06);
+        } 
+    }
+    .f-two{
+        padding-left: 70px;
+    }
+}
+.saas-bg{
+    background: #f8f8f8;
+}
+
+
+
+
+/* Features-area3 css
+=============================================================*/
+.features-area3{
+    padding-top: 100px;
+    .features-tab{
+        border: 0px;
+        text-align: center;
+        margin: 60px 0px;
+        li{
+            margin: 0px;
+            a{
+                padding: 4px 25px;
+                font-family: $ral;
+                border: 1px solid #535353;
+                color: #535353;
+                text-transform: uppercase;
+                font-size: 15px;
+                letter-spacing: 1px;
+                line-height: 30px;
+                border-radius: 0px;
+                &.active,&:hover{
+                    border-color:#535353; 
+                    background: #535353;
+                    color: #fff;
+                }
+            }
+            & + li{
+                a{
+                    border-left: 0px;
+                }
+            }
+            &:first-child{
+                a{
+                    border-top-left-radius: 22px;
+                    border-bottom-left-radius: 22px;
+                }
+            }
+            &:last-child{
+                a{
+                    border-top-right-radius: 22px;
+                    border-bottom-right-radius: 22px;
+                }
+            }
+        }
+    }
+    .tab-content{
+        .tab-pane{
+            img{
+                max-width: 100%;
+            }
+        }
+        .tab-text{
+            padding-right: 100px;
+            h2{
+                font-family: $ral;
+                font-size: 24px;
+                line-height: 48px;
+                color: #1a264a;
+                font-weight: 600;
+            }
+            p{
+                font: 400 14px/25px "Raleway", sans-serif;
+                color: #585e68;
+                padding: 10px 0px 15px;
+            }
+            ul{
+                li{
+                    a{
+                        font: 400 16px/40px $ral;
+                        color: #585e68;
+                        padding-left: 33px;
+                        position: relative;
+                        display: block;
+                        i{
+                            color: #ea4452;
+                            font-size: 14px;
+                            line-height: 40px;
+                            position: absolute;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .tab2{
+            .tab-text{
+                padding-left: 100px;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+.img-shadow{
+    box-shadow: 0px 30px 70px 0px rgba(26, 38, 74, 0.25);
+}
+
+
+/*fun-fact-area css
+=====================================================================*/
+.fun-fact-area {
+    background: url(../images/saas/fun-fact-bg1.png) no-repeat scroll;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 120px 0px 104px;
+    &:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-image: -moz-linear-gradient(-15deg, #3a7bd5 0%, #1aabec 100%);
+        background-image: -webkit-linear-gradient(-15deg, #3a7bd5 0%, #1aabec 100%);
+        background-image: -ms-linear-gradient(-15deg, #3a7bd5 0%, #1aabec 100%);
+        z-index: -1;
+        opacity: 0.95;
+    }
+    .fact-item {
+        text-align: center;
+        color: #fff;
+        span{
+            font-size: 70px;
+            line-height: 60px;
+            position: relative;
+            padding-bottom: 12px;
+            display: block;
+        }
+        h4{
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: uppercase;
+            padding-top: 7px;
+            font-family: $ral;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+}
+
+
+
+/*sass-pricing-area css
+================================================================*/
+.sass-pricing-area{
+    padding: 100px 0px;
+    .pricing-item{
+        text-align: center;
+        background: #fff;
+        font-family: $ral;
+        padding-bottom: 50px;
+        margin-top: 50px;
+        transition: all 0.4s linear;
+        .plan-name{
+            margin: 0px;
+            font-family: $ral;
+            padding: 36px 0px;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 600;
+            border-bottom: 1px solid #f1f2f3;
+            background-color: #fcfdfe;
+        }
+        .price{
+            font-size: 60px;
+            font-weight: 600;
+            font-family: $ral;
+            color: #1aabec;
+            .price-unit{
+                display: inline-block;
+                font-size: 20px;
+                vertical-align: text-top;
+                margin-right: 6px;
+                margin-top: 18px;
+            }
+        }
+        small{
+            font-size: 18px;
+            color: #585e68;
+            line-height: 45px;
+        }
+        .saas-f-btn{
+            font-family: $ral;
+            font-weight: 500;
+            padding: 11px 38px;
+            display: inline-block;
+        }
+        &:hover,&.active{
+            box-shadow: 0 0 25px rgba(0,0,0,0.08);
+        }
+    }
+}
+
+
+/* Faq_area css
+================================================================*/
+.faq_area{
+    padding: 100px 0px 90px;
+    .sass-header{
+        margin-bottom: 60px;
+    }
+    .faq-item{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        h5{
+            font-family: $ral;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 30px;
+            color: #1a264a;
+            letter-spacing: -0.10px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 32px;
+            color: #585e68;
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+.get_started_area{
+    padding: 100px 0px;
+    p{
+        margin-bottom: 0px;
+    }
+    .saas-f-btn{
+        margin: 50px 0px 10px;
+    }
+}

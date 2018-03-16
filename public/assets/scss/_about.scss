@@ -1,0 +1,428 @@
+.about_us_area{
+    background: #f8fcff;
+    padding: 100px 0px;
+}
+.about_left_h1{
+    h2{
+        font-size: 50px;
+        font-weight: 500;
+        padding-bottom: 40px;
+    }
+}
+.row_h1_about{
+    padding-top: 50px;
+}
+.h1_about_column_4_single{
+    i{
+        font-size: 50px;
+        margin-bottom: 20px;
+        display: block;
+        transition: all 0.5s linear;
+    }
+    h5{
+      transition: all 0.5s linear;  
+    }
+    &:hover{
+        color: #ea4452;
+        h5{
+            color: #ea4452;
+        }
+    }
+}
+.about_right_h1 {
+    position: relative;
+    margin-left: 100px;
+    height: 600px;
+}
+.about_right_div1,.about_right_div2,.about_right_div3{
+    box-shadow: 5px 4px 5px 0px #989898;
+}
+.about_right_div1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.about_right_div2 {
+    position: absolute;
+    top: 60px;
+    left: 230px;
+}
+.about_right_div3 {
+    position: absolute;
+    top: 300px;
+    left: -40px;
+}
+/*
+Tab style
+*/
+.text-color {
+  color: #ea4452;
+}
+.about-tabs {
+  padding-bottom: 0px;
+}
+.about-tabs li {
+  padding: 0px 20px;
+}
+.about-tabs li a {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  display: block;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0;
+  color: #999;
+  font-weight: 400;
+}
+.about-tabs li a.active {
+  color: #ea4452;
+  border-bottom-color: #ea4452;
+}
+
+/*
+Progess bars
+*/
+.progress {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+.progress .progress-bar {
+    background: #ea4452;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 20px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    width: 0%;
+    transition: width 0.6s linear;
+}
+.progress .progress-bar .value {
+    display: inline-block;
+    margin-right: 20px;
+}
+.process-box h2 {
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+    padding-bottom: 5px;
+}
+
+/*========= about section css ===========*/
+.about-section{
+    .about-info{
+        .signature{
+            h2{
+                font-family: 'Sacramento', cursive;
+                margin-top: 20px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    address{
+        margin-bottom: 40px;
+        p{
+            font-size: 16px;
+            line-height: 30px;
+            span{
+                color: #000;
+                font-weight: 700;
+            }
+        }
+    }
+}
+.col-pad-left{
+    padding-left: 40px;
+}
+.achievement{
+    li{
+        float: left;
+        .counter{
+            font-size: 56px;
+            font-weight: 700;
+            color: #ea4452;
+            line-height: 62px;
+            &.counter1 {
+                color: #873e95;
+            }
+            &.counter2{
+                color: #3c70b4;
+            }
+            &.counter3{
+                color: #f7941d;
+            }
+        }
+        h4{
+            font-size: 16px;
+            font-family: "Roboto", sans-serif;
+        }
+        & + li{
+            margin-left: 30px;
+        }
+    }
+}
+
+
+/*========= skill-section css ===========*/
+.text-info{
+    color: #888 !important;
+    margin-bottom: 46px;
+    h4{
+        font-size: 24px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+    }
+}
+.skill-section{
+    .section-content{
+        .language-skill{
+            display: block;
+            margin: 0px;
+            overflow: hidden;
+            margin-top: 30px;
+        }
+    }
+}
+.analytics-progressbar{
+    width: calc(100% / 4);
+    float: left;
+    text-align: center;
+    .circle{
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        color: #888;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
+        font-size: 22px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h3{
+        margin: 15px 0px 0px;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+    }
+}
+.progress-content{
+    overflow: hidden;
+    .rating-bar{
+        width: 48%;
+        float: left;
+        h4{
+            font-size: 18px;
+            font-weight: 400;
+            font-family: "Roboto", sans-serif;
+            text-transform: capitalize;
+            padding-bottom: 5px;
+            display: inline-block
+        }
+        h6{
+            float: right;
+        }
+        .progress{
+            height: 8px;
+            margin-bottom: 22px;
+            background-color: #ebebeb;
+            border-radius: 4px;
+            box-shadow: none;
+            width: 100%;
+            position: relative;
+            .progress-bar {
+                background: #f4bf00;
+                &.bar1{
+                    background: #873e95;
+                }
+                &.bar2{
+                    background: #3c70b4;
+                }
+                &.bar3{
+                    background: #f7941d;
+                }
+                &.bar4{
+                    background: #ea4452;
+                }
+            }
+        }
+        &.bar-right{
+            margin-left: 4%;
+        }
+    }
+}
+
+/*=========== exprience-section css ===========*/
+.exprience-section{}
+.exprience{
+    overflow: hidden;
+    position: relative;
+    .exprience-image{
+        margin-right: 0px;
+        width: 150px;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        img{
+            transition: all 0.3s linear;
+        }
+    }
+    .exprience-info {
+        padding-top: 20px; 
+        padding-left: 170px;
+    }
+    &:hover{
+        .exprience-image{
+            img{
+                transform: scale(0.9);
+            }
+        }
+    }
+}
+.ex-title{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+.ex-date{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*========== education-section css ==========*/
+.education-section{}
+.ed-section-content{
+    .education-info{
+        padding: 12px 0px;
+        .ex-title{
+            margin-top: 25px;
+        }
+        .ex-date{
+            margin-bottom: 7px;
+        }
+        p{
+            padding-top: 10px;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+
+/*========== about-banner css ============*/
+.about-banner{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.banner-cell{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    h3{
+        font-size: 30px;
+        line-height: 36px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: #fff;
+        margin-top: 10px;
+    }
+    p{
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
+.colors-b{
+    background-color: rgba(71,67,64,.72);
+}
+.colors-c{
+    background-color: rgba(33,30,28,.72);
+}
+.colors-d{
+    background-color: rgba(77,56,36,.72);
+}
+.heading-b{
+    background-color: rgba(198,237,181,.3); 
+}
+.heading-c{
+    background-color: rgba(247,239,199,.3);
+}
+.heading-d{
+    background-color: rgba(185,224,244,.3);
+}
+   
+
+
+/*============ section-skills css ============*/
+.section-skills{
+    background: url(../images/portfolio/slide14.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: auto;
+    position: relative;
+    z-index: 0;
+    &:after{
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        height: 100%;
+        width: 100%;
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+    }
+    .analytics-progressbar{
+        width: auto;
+        float: none;
+        h3{
+            color: #888;
+            font-family: $rob;
+            font-weight: 500;
+            line-height: 22px;
+            font-size: 15px;
+        }
+        .text{
+            color: #ce3635;
+            &.text1{
+                color: #f7941d;
+            }
+            &.text2{
+                color: #3899b5;
+            }
+            &.text3{
+                color: #999;
+            }
+            &.text4{
+                color: #873e95;
+            }
+            &.text15{
+                color: #ea4452;
+            }
+        }
+    }
+}
+/*============ section-skills css ============*/

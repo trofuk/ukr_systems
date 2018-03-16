@@ -1,0 +1,42 @@
+/*contact-information css
+===================================================*/
+.contact-information{
+    background: #f1f1f1;
+    i{
+        font-size: 54px;
+        color: #aeaeae; 
+    }
+    h5{
+        color: #686868;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-family: $rob;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
+
+/*
+Footer
+*/
+.footer {
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 40px 0;
+    ul{
+        li{
+            margin: 0px 10px;
+            a{
+                color: #aeaeae;
+                font-size: 20px; 
+                transition: all 0.4s linear;
+                &:hover{
+                    color: #000;
+                }
+            }
+        }
+    }
+    span{
+        font-size: 12px;
+    }
+}

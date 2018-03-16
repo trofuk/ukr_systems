@@ -1,0 +1,448 @@
+/*
+Base csss
+*/
+html, body {
+  height: 100%;
+}
+.m0{
+    margin: 0px;
+}
+.p0{
+    padding: 0px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #888;
+}
+
+a, button {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+a {
+  color: #ea4452;
+}
+a:hover {
+  color: #aeaeae;
+}
+
+a, a:hover, a:focus, button:hover, button:focus {
+  outline: 0 !important;
+  text-decoration: none;
+}
+
+blockquote {
+  font-style: normal;
+  font-weight: 400;
+}
+blockquote p {
+  font-weight: 400;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+::-moz-selection {
+  background-color: #191b1d;
+  color: #fff;
+}
+
+::selection {
+  background-color: #191b1d;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0px;
+  margin-top: 0px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #000;
+  font-weight: 300;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lead {
+  line-height: 1.9rem;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.border-width {
+  width: 100%;
+  height: 1px;
+  background: #ededed;
+  margin: 30px 0 10px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.full-wid {
+  width: 100%;
+}
+
+.no-padd {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+/***spaces**/
+.space-10 {
+  width: 100%;
+  height: 10px;
+}
+
+.space-20 {
+  width: 100%;
+  height: 20px;
+}
+hr{
+    border-color: #ededed;
+}
+.sec-p{
+    padding-top: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.space-30 {
+  width: 100%;
+  height: 30px;
+}
+
+.space-40 {
+  width: 100%;
+  height: 40px;
+}
+
+.space-50 {
+  width: 100%;
+  height: 50px;
+}
+
+.space-60 {
+  width: 100%;
+  height: 60px;
+}
+
+.space-70 {
+  width: 100%;
+  height: 70px;
+}
+
+.space-80 {
+  width: 100%;
+  height: 80px;
+}
+
+.space-90 {
+  width: 100%;
+  height: 90px;
+}
+
+.space-100 {
+  width: 100%;
+  padding-top: 100px;
+}
+
+/**margins**/
+.margin-b-10 {
+  margin-bottom: 10px;
+}
+
+.margin-b-20{
+  margin-bottom: 20px;
+}
+
+.margin-b-30 {
+  margin-bottom: 30px;
+}
+.margin-t-30{
+    margin-top: 30px;
+}
+.margin-b-40 {
+  margin-bottom: 40px;
+}
+
+.margin-b-50 {
+  margin-bottom: 50px;
+}
+
+.margin-b-60 {
+  margin-bottom: 60px;
+}
+.margin-b-75 {
+  margin-bottom: 75px;
+}
+.margin-b-80 {
+  margin-bottom: 80px;
+}
+.skin-bg {
+  background-color: #ea4452;
+}
+
+.gray-bg {
+  background: #f7f9fa;
+}
+
+.center-title {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom:25px;
+    position: relative;
+}
+
+.center-title:before {
+    content: "";    
+    background: url("../images/wave.png") no-repeat scroll center;
+    width: 32px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-title{
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+}
+/*========= prallex css ===========*/
+.divimage{
+    &:before{
+        content: "";
+        background: #000;
+        opacity: 0.50;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+.parallax-text {
+    color: #fff;
+    h2{
+        margin-bottom: 5px !important;
+    }
+    .text-up{
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+.bg-color{
+    background: #f8f8f8;   
+}
+
+
+.scrollToTop {
+    text-align: center;
+    font-size: 50px;
+    background: transparent;
+    font-weight: bold;
+    color: #ea4452;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+    display: none;
+    opacity: 0.8;
+    line-height: 0px;
+    transition: all 0.3s;
+    &:hover{
+        color: #333;
+    }
+}
+
+.s-title{
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 40px;
+    .sec-title-one{
+        &:before{
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+.sec-title-one{
+    color: #fff;
+    font-family: $rob;
+    position: relative;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    &:before{
+        content: "";
+        width: 50px;
+        height: 2px;
+        background: #ce3635;
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+    }
+}
+
+//agency title
+.main-title{
+    text-align: center;
+    padding-top: 10px;
+    h2{
+        font: 700 28px $ral;
+        color: #5a5a5a;
+        text-transform: capitalize;
+        position: relative;
+        z-index: 0;
+        &:before{
+            content: attr(data-line);
+            width: 100%;
+            font-size: 35px;
+            top: 10px;
+            color: #f0f0f0;
+            font-weight: 700;
+            position: absolute;
+            left: 0px;
+            font-family: $ral;
+            line-height: 0px;
+            z-index: -1;
+        }
+    }
+    h3{
+        font: 700 14px $ral;
+        color: #999;
+    }
+}
+
+
+.grey{
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.60);
+    padding-bottom: 20px;
+}
+
+.dk-bg{
+    background: #111;
+}
+.agency_bg{
+    background: #f9f9f9;
+}
+
+
+
+@keyframes runpulse{
+  0% {
+    opacity: 1;
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+/* Contact From popup css
+============================================================================================ */
+.modal-message{
+    background: rgba(0, 0, 0, 0.5);
+    .modal-dialog{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        top: 30%;
+        position: absolute;
+        transform: translateY(-50%);
+        right: 0px;
+        left: 0px;
+        border-radius: 0px;
+        .modal-content{
+            border: none;
+            border-radius: 15px;
+            text-align: center;
+            .modal-header{
+                border-bottom: 0px;
+                padding-bottom: 0px;
+                display: block;
+            }
+            h2{
+                color: #000;
+                font-size: 40px;
+                font-family: $ral; 
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 3px;
+                padding-bottom: 10px;
+                padding-top: 20px;
+            } 
+            p{
+                color: #888;
+                font-size: 16px;
+                font-family: $rob;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
+
+#error{
+    h2{
+        color: #ea4452;
+    } 
+}
+
+#success{
+    h2{
+        color: #14e06e;
+    } 
+}
+.modal-backdrop{
+    z-index: 20;
+}
+/* End Contact From popup css
+============================================================================================ */
