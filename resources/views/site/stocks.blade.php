@@ -15,7 +15,7 @@
                 @if(isset($sections))
                 <div class="stocks_content wow fadeInUp" data-wow-delay="600ms">
                     <h2>{{ $sections[1]->title }}</h2>
-                    <p>{{ $sections[1]->description }}</p>
+                    <p>{!! $sections[1]->description !!}</p>
                 </div>
                 @endif
             </div>

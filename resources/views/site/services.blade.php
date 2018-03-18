@@ -17,22 +17,22 @@
                             @foreach($services as $k => $service)
                             @if($k%2 == 0)
                             <li class="col-md-6 clearfix wow fadeInLeft" data-wow-delay="200ms">
-                                <i class="ion-ios-briefcase-outline"></i>
+                                <i class="{{ $service->icon }}"></i>
                                 <div class="content">
                                     <h4>{{ $service->name }}</h4>
                                     <p>
-                                        {{ $service->text }}
+                                        {!! $service->text !!}
                                     </p>
                                 </div>
                             </li><!--service col end with li-->
                             @endif
                             @if($k%2 == 1)
                             <li class="col-md-6 clearfix wow fadeInRight" data-wow-delay="400ms">
-                                <i class="fa fa-line-chart"></i>
+                                <i class="{{ $service->icon }}"></i>
                                 <div class="content">
                                     <h4>{{ $service->name }}</h4>
                                     <p>
-                                        {{ $service->text }}
+                                        {!! $service->text !!}
                                     </p>
                                 </div>
                             </li><!--service col end with li-->

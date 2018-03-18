@@ -8,8 +8,8 @@
         <!--    favicon-->
         <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon">
                 <!--main css file-->
-        <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+        <link href="{{ asset('assets/css/style_endo.css') }}" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}"> -->
                 <!-- plugins -->
         <link href="{{ asset('assets/vendor/bower_components/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     
@@ -24,6 +24,7 @@
 		<script src="{{ asset('assets/vendor/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <!-- replace!!! -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-filestyle/2.1.0/bootstrap-filestyle.min.js"></script>
+        <script type="text/javascript" src="{{asset('assets/js/ckeditor/ckeditor.js')}}"></script>
 
 
       <title>{{ $title }}</title>
